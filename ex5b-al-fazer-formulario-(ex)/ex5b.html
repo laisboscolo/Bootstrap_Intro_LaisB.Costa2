@@ -11,63 +11,61 @@
 
     <style>
     /* css interno */
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #5c3e62;
+    body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #d8e6f4;
+            margin:0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .custom-form {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(171, 214, 253, 0.822);
+            width: 100%;
+            max-width: 440px;
+        }
+
+
+    .form-label{
+        color: #4a4a4a;
+        font-weight: 500;
+    }
+
+    .custom-icons{
+        background-color:blue ;
+        border: none;
+        color: #ffffff;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .form-title {
+        color:hotpink ;
         text-align: center;
-        padding: 20px;
-        height: 100vh;
-        margin: 0;
+        margin-bottom: 1,1rem;
+        font-size: 1.75rem ;
+        font-weight: 600;
     }
 
-    .container{
-        display: flex;
-        justify-content: center;
-        max-width: 600px;
-        margin: 20px auto;
-        background: #96b397;
-        padding: 20px;
-        border-radius: 30px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    .btn.custom-button{
+        background-color:wheat  ;
+        color:#ffffff;
+        padding:0.8rem 2rem;
+        border-radius:10px;
+        border: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
     }
-
-    h3 {
-        color: #fcfcfc;
-        padding: 20px;
-        border-radius: 10px;
-        font-size: 36px;
-        width: 50%;
-        margin: 5px auto;
-    }
-
-
-    .form-control{
-        width: 400px;
-        border-radius: 30px;
-        background-color: #dbdbdb;
-    }
-
-    .form-control:hover{
-        width: 400px;
-        border-radius: 15px;
-        background-color: #939393;
-    }
-
-    .btn {
-        font-size: 18px;
-        color: #222;
-        border-radius: 30px;
-        transition: all 0.3s ease-in-out;
-        background-color: #525574;
-    }
-
-    /* Efeito hover nos textos */
-    .btn:hover {
-        background-color: #43465e;
-        border-radius: 15px;
-    }
+    
     </style>
 
  </head>
@@ -94,8 +92,8 @@
                 <input type="password" id="senha" class="form-control custom-input">
             </div>
             <div class="d-grid">
-                <button class="btn">
-                    <i class="bi bi arrow-right"></i>Login
+                <button class="btn custom-button">
+                    <i class="bi bi-arrow-right"></i>Login
                 </button>
             </div>
         </div>
