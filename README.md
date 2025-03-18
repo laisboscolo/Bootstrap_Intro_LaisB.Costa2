@@ -11,8 +11,8 @@ Os cards no Bootstrap são blocos de conteúdo flexíveis e personalizáveis. El
 
  ## Exercícios:
  * 1_instalação cdn: ✅
- * 1a_instalaçao_arquivos:não realizado para nao pesar o computador ❌
- * 1b_instalaçao_arquivos:não realizado para nao pesar o computador ❌
+ * 1a_instalaçao_arquivos:não realizado para não pesar o computador ❌
+ * 1b_instalaçao_arquivos:não realizado para não pesar o computador ❌
  * 2_sistema-grid: ✅
  * 3_botoes: ✅
  * 4_formulario-sub-css: ✅
