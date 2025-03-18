@@ -6,5 +6,5 @@ O Bootstrap é um framework front-end que facilita a criação de sites e aplica
 Cards
 Os cards no Bootstrap são blocos de conteúdo flexíveis e personalizáveis. Eles podem conter textos, imagens, links e botões, sendo muito usados para exibir informações de forma organizada e elegante.
 * eles sao responsivos e se ajustam automaticamente ao tamanho da tela
-* pode ser colocado textos, imagens e classes no card
+* pode ser colocado textos, imagens, botoes, cabeçalho, listas e classes no card
  
