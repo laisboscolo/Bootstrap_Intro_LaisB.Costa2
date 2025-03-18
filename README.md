@@ -9,7 +9,7 @@ Os cards no Bootstrap são blocos de conteúdo flexíveis e personalizáveis. El
 * eles sao responsivos e se ajustam automaticamente ao tamanho da tela
 * pode ser colocado textos, imagens, botoes, cabeçalho, listas e classes no card
 
- ## Exercicios:
+ ## Exercícios:
  * 1_instalação cdn: ✅
  * 1a_instalaçao_arquivos:não realizado para nao pesar o computador ❌
  * 1b_instalaçao_arquivos:não realizado para nao pesar o computador ❌
